@@ -1,0 +1,58 @@
+# Kaggle credentials (ВАЖНО: никогда не коммитить!)
+.kaggle/
+kaggle.json
+
+# Данные Kaggle (большие файлы)
+train.csv
+test.csv
+*.zip
+sample_submission.csv
+
+# Результаты и сабмиты
+submit.csv
+submission.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Модели и чекпоинты
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
